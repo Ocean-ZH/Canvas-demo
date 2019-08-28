@@ -1,0 +1,29 @@
+{
+  "name": "canvas-demo",
+  "version": "1.0.0",
+  "description": "Learn Canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "start:dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ocean-ZH/Canvas-demo.git"
+  },
+  "author": "Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ocean-ZH/Canvas-demo/issues"
+  },
+  "homepage": "https://github.com/Ocean-ZH/Canvas-demo#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
